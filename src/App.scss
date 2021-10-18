@@ -1,3 +1,22 @@
+//Reset
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+li {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
 .App {
   text-align: center;
+  display: flex;
+  margin-top: 2rem;
+  font-size: 2rem;
 }
